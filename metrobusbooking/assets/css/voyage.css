@@ -1,0 +1,63 @@
+.voyag_dispo {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+.titre-voyages {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+/* Voyage disponible */
+.voyag_dispo {
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 15px;
+    margin: 0 auto;
+}
+/* .les_voyages {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid blue;
+    justify-content: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+} */
+
+.voyage {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    align-items: center;
+}
+/* .infos-voyage {
+    flex: 1;
+    flex-basis: 200;
+} */
+
+.trajet,
+.details {
+    margin-bottom: 10px;
+}
+.prix {
+    color: #28a745;
+    font-weight: bold;
+}
+.reserver {
+    text-align: right;
+}
+.btn-reserver:hover,
+.voir_tout:hover {
+    background-color: #0056b3;
+}
